@@ -11,8 +11,13 @@
 }
 
 header {
+    color: black;
     padding-left: 1%;
     padding-top: 1.2%;
+}
+
+#header-index {
+    color: #44453f;
 }
 
 footer {
@@ -20,6 +25,7 @@ footer {
     bottom: 0;
     font-size: medium;
     color: dimgrey;
+    line-height: 66%
 }
 
 aside {
@@ -51,6 +57,10 @@ body {
 /* Комбинированный селектор - применяется ко всем элементам */
 header, footer, aside, body, .navbar, .video-container {
     font-family: "Helvetica 65 Medium", sans-serif;
+}
+
+header, footer, body, .video-container {
+    background-color: lawngreen;
 }
 
 
